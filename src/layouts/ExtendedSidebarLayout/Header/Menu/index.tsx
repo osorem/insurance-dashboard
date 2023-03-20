@@ -295,7 +295,7 @@ function HeaderMenu() {
                 primaryTypographyProps={{
                   variant: 'h5'
                 }}
-                primary={t('Automation')}
+                primary={t('Parser')}
               />
               <ChevronRightTwoToneIcon
                 sx={{

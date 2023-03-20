@@ -20,7 +20,7 @@ const aeJSON = {
   Products: 'منتجات',
   Statistics: 'إحصائيات',
   General: 'عام',
-  Automation: 'التشغيل الآلي',
+  Parser: 'التشغيل الآلي',
   'Data Display': 'عرض البيانات',
   Calendar: 'التقويم',
   Mailbox: 'صندوق بريد',

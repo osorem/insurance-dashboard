@@ -88,7 +88,7 @@ const menuItems: MenuItems[] = [
           },
           {
             name: 'Generate Report',
-            link: '/dashboards/automation',
+            link: '/dashboards/parser',
             badge: '',
             badgeTooltip: 'Dot indicator with example tooltip'
           }
@@ -102,8 +102,8 @@ const menuItems: MenuItems[] = [
           //   link: '/dashboards/products'
           // },
           // {
-          //   name: 'Automation',
-          //   link: '/dashboards/automation'
+          //   name: 'Parser',
+          //   link: '/dashboards/parser'
           // },
           // {
           //   name: 'Analytics',

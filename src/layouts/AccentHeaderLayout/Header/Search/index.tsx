@@ -129,7 +129,7 @@ const BtnControl = styled(Box)(
 const searchTerms = {
   Dashboards: [
     {
-      title: 'Automation UI'
+      title: 'Parser UI'
     },
     {
       title: 'Banking Performance'

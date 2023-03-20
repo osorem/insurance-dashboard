@@ -20,7 +20,7 @@ const znJSON = {
   Products: '產品',
   Statistics: '統計數據',
   General: '一般的',
-  Automation: '自動化',
+  Parser: '自動化',
   'Data Display': '數據顯示',
   Calendar: '日曆',
   Mailbox: '郵箱',

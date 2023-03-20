@@ -20,7 +20,7 @@ const esJSON = {
   Products: 'Productos',
   Statistics: 'Estadísticas',
   General: 'General',
-  Automation: 'Automatización',
+  Parser: 'Automatización',
   'Data Display': 'Visualización de datos',
   Calendar: 'Calendario',
   Mailbox: 'Buzón',

@@ -88,8 +88,8 @@ const menuItems: MenuItems[] = [
             link: '/blueprints/boxed-sidebar/dashboards/statistics'
           },
           {
-            name: 'Automation',
-            link: '/blueprints/boxed-sidebar/dashboards/automation'
+            name: 'Parser',
+            link: '/blueprints/boxed-sidebar/dashboards/parser'
           },
           {
             name: 'Analytics',

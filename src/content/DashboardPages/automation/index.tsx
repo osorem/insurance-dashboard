@@ -2,10 +2,10 @@ import { useState } from 'react';
 
 import { Grid, Box } from '@mui/material';
 
-import Search from 'src/content/Dashboards/Automation/Search';
-import Table from 'src/content/Dashboards/Automation/Table';
+import Search from 'src/content/Dashboards/Parser/Search';
+import Table from 'src/content/Dashboards/Parser/Table';
 
-function DashboardAutomationContent() {
+function DashboardParserContent() {
   let [searchText, setSearchText] = useState('');
 
   return (
@@ -36,4 +36,4 @@ function DashboardAutomationContent() {
   );
 }
 
-export default DashboardAutomationContent;
+export default DashboardParserContent;

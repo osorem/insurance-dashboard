@@ -20,7 +20,7 @@ const frJSON = {
   Products: 'Des produits',
   Statistics: 'Statistiques',
   General: 'Général',
-  Automation: 'Automatisation',
+  Parser: 'Automatisation',
   'Data Display': 'Affichage des données',
   Calendar: 'Calendrier',
   Mailbox: 'Boites aux lettres',

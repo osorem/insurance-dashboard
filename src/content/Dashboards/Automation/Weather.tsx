@@ -175,7 +175,7 @@ function Weather() {
       <TopBarImage
         sx={{
           backgroundImage:
-            'url("/static/images/placeholders/covers/automation-bg.jpg")'
+            'url("/static/images/placeholders/covers/parser-bg.jpg")'
         }}
       />
       <WeatherBoxContent>

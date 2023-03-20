@@ -87,8 +87,8 @@ const menuItems: MenuItems[] = [
             link: '/blueprints/accent-header/dashboards/statistics'
           },
           {
-            name: 'Automation',
-            link: '/blueprints/accent-header/dashboards/automation'
+            name: 'Parser',
+            link: '/blueprints/accent-header/dashboards/parser'
           },
           {
             name: 'Analytics',

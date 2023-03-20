@@ -33,7 +33,7 @@ import ActiveReferrals from 'src/content/Dashboards/Analytics/ActiveReferrals';
 import MonthlyGoalsTarget from 'src/content/Dashboards/Fitness/MonthlyGoalsTarget';
 import Transfers from 'src/content/Dashboards/Banking/Transfers';
 import RecentTransactions from 'src/content/Dashboards/Commerce/RecentTransactions';
-import Thermostat from 'src/content/Dashboards/Automation/Thermostat';
+import Thermostat from 'src/content/Dashboards/Parser/Thermostat';
 import AccountSecurity from 'src/content/Dashboards/Crypto/AccountSecurity';
 import AppointmentsAlt from 'src/content/Dashboards/Healthcare/hospital/AppointmentsAlt';
 import UnresolvedTickets from 'src/content/Dashboards/Helpdesk/UnresolvedTickets';
@@ -867,10 +867,10 @@ function Highlights() {
                     rel="noopener"
                     startIcon={<LaunchTwoToneIcon />}
                     component={Link}
-                    href="/dashboards/automation"
+                    href="/dashboards/parser"
                     variant="outlined"
                   >
-                    {t('Automation')}
+                    {t('Parser')}
                   </Button>
                 </Grid>
                 <Grid item xs={12} sm={6}>

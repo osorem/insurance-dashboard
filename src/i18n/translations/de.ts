@@ -20,7 +20,7 @@ const deJSON = {
   Products: 'Produkte',
   Statistics: 'Statistiken',
   General: 'Allgemein',
-  Automation: 'Automatisierung',
+  Parser: 'Automatisierung',
   'Data Display': 'Datenanzeige',
   Calendar: 'Kalender',
   Mailbox: 'Briefkasten',

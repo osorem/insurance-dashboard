@@ -32,7 +32,7 @@ function Routing() {
   ├── dashboards
   │   ├── analytics
   │   │   └── index.tsx
-  │   ├── automation
+  │   ├── parser
   │   │   └── index.tsx
   │   ├── banking
   │   │   └── index.tsx
