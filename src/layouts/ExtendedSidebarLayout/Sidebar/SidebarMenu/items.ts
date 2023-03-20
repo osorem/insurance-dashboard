@@ -85,13 +85,13 @@ const menuItems: MenuItems[] = [
           {
             name: 'Statistics',
             link: '/dashboards/reports'
+          },
+          {
+            name: 'Generate Report',
+            link: '/dashboards/automation',
+            badge: '',
+            badgeTooltip: 'Dot indicator with example tooltip'
           }
-          // {
-          //   name: 'Reports',
-          //   link: '/dashboards/reports',
-          //   badge: '',
-          //   badgeTooltip: 'Dot indicator with example tooltip'
-          // },
           // {
           //   name: 'Expenses',
           //   link: '/dashboards/expenses',

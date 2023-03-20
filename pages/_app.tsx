@@ -73,7 +73,6 @@ function TokyoApp(props: TokyoAppProps) {
                     }
                   </AuthConsumer>
                 </SnackbarProvider>
-                
               </AuthProvider>
             </LocalizationProvider>
           </ThemeProvider>

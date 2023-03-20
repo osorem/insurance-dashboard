@@ -1,6 +1,6 @@
 import { TextField, InputAdornment, IconButton, styled } from '@mui/material';
 import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
-import MicTwoToneIcon from '@mui/icons-material/MicTwoTone';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 import { useTranslation } from 'react-i18next';
 
@@ -25,11 +25,18 @@ const SearchInputWrapper = styled(TextField)(
   `
 );
 
-function Search() {
+function Search({ searchText, setSearchText }: any) {
   const { t }: { t: any } = useTranslation();
+
+  const handleChange = (event) => {
+    setSearchText(event.target.value);
+  };
 
   return (
     <SearchInputWrapper
+      type="text"
+      value={searchText}
+      onChange={handleChange}
       InputProps={{
         startAdornment: (
           <InputAdornment position="start">
@@ -39,12 +46,12 @@ function Search() {
         endAdornment: (
           <InputAdornment position="end">
             <IconButton>
-              <MicTwoToneIcon />
+              <ArrowForwardIcon />
             </IconButton>
           </InputAdornment>
         )
       }}
-      placeholder={t('Search...')}
+      placeholder={t('Enter Value(s)')}
       fullWidth
     />
   );

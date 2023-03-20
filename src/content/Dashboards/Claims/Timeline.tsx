@@ -15,7 +15,7 @@ export default function CustomizedTimeline() {
 
   return (
     <Box mx={2}>
-      <Timeline position={size.width > 1000 ? "alternate" : 'left'}>
+      <Timeline position={size.width > 1000 ? 'alternate' : 'left'}>
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot variant="outlined" sx={{ p: 1 }}></TimelineDot>

@@ -84,9 +84,9 @@ function RecoverPasswordBasic() {
 
   const [openDialog, setOpenDialog] = useState(false);
 
-  const handleOpenDialog = () => {
-    setOpenDialog(true);
-  };
+  // const handleOpenDialog = () => {
+  //   setOpenDialog(true);
+  // };
 
   const handleCloseDialog = () => {
     setOpenDialog(false);
@@ -184,7 +184,7 @@ function RecoverPasswordBasic() {
                     variant="outlined"
                   />
 
-                  <Button
+                  {/* <Button
                     sx={{
                       mt: 3
                     }}
@@ -197,7 +197,7 @@ function RecoverPasswordBasic() {
                     variant="contained"
                   >
                     {t('Send me a new password')}
-                  </Button>
+                  </Button> */}
                 </form>
               )}
             </Formik>
