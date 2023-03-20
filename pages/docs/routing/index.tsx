@@ -149,8 +149,8 @@ function Routing() {
               badgeTooltip: 'Dot indicator with example tooltip'
             },
             {
-              name: 'Automation',
-              link: '/dashboards/automation'
+              name: 'Parser',
+              link: '/dashboards/parser'
             },
             {
               name: 'Healthcare',

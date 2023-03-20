@@ -9,7 +9,7 @@ function DashboardAutomation() {
   return (
     <>
       <Head>
-        <title>Automation Dashboard</title>
+        <title>Parser Dashboard</title>
       </Head>
       <DashboardAutomationContent />
     </>
